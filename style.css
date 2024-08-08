@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: right;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black ;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    
+
+}
+button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 20px 30px;
+    border-radius: 800px;
+    background: black;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+
+  }
+  
+  button:hover 
+  {
+    background: black;
+  }
+  .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+    right: 23px;
+  }
+  
+  .group input {
+    height: 40px;
+    border-radius: 50px 50px 50px;
+    line-height: 28px;
+    padding: 0 1rem;
+    width: 100%;
+    padding-left: 2.5rem;
+    outline: none;
+    background: linear-gradient(180deg,     rgb(56, 56, 56) 0%, rgb(36, 36, 36)   66%, rgb(41, 41, 41) 100%);
+    color: #fff;
+    transition: .3s ease;
+    border: 2px solid;
+    border-image: conic-gradient( #00F260) 1;
+  }
+  
+  .input::placeholder {
+    color: #fff;
+  }
+  
+  .input:focus::placeholder {
+    color: #999;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #fff;
+    width: 1rem;
+    height: 1rem;
+  }
+  .theme{
+    position: relative;
+    right: 375px;
+    font-size: xx-large;
+    top: 10px;
+  }
+  .theme i{
+    margin: 10px;
+  }
+  
+  .home{
+    display: flex;
+    justify-content:baseline;
+    position: relative;
+    right: 0px;
+    
+  }
+  .home i{
+    margin: 5px;
+  }
+  .about{
+    position: relative;
+    right: 0px;
+    top: 4px;
+    
+  }
+  .about i{
+    margin:3px;
+  }
+  .Events{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    top: 0px;
+  }
+  .Events i{
+    margin: 3px;
+  }
+  
+  .services{
+    position: relative;
+    top: 0px;
+
+  }
+  .services i{
+    margin:5px;
+  }
+  .img1{
+    
+    position: static;
+  }
+  header img{
+    position: relative;
+    right:490px;
+    margin: 12px;
+    width: 130px;
+  }
+  .contactus{
+    position: relative;
+    top: 1px;
+  }
+  .contactus i{
+    margin: 5px;
+  }  
+  .img1 p{
+    
+    color: wheat;
+    font-size: 60px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    bottom: 500px;
+    margin: 10px;
+  }
+  .aboutus{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 225px;
+    color: darkmagenta;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    left: 160px;
+    
+  }
+  .aboutus p{
+    position: relative;
+    top: 90px;
+    font-size:60px;
+  
+  }
+  .img2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 290px;
+    right: 300px;
+    border-radius: 70px 70px 70px;
+    background-image: url(./urban-8562312\ \(1\).jpg);
+    background-size: cover;
+  }
+  .enquirenow{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 20px 30px;
+    border-radius: 800px;
+    background: rgb(162, 87, 87);
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+    position: relative;
+    bottom: 480px;
+    left: 10px;
+    transition: transform 0.8s;
+    transform:rotateX('30angle');
+
+  }
+  .enquireus:hover{
+    background: black;
+  }
+  .aboutus-description{
+    align-items: center;
+    position: relative;
+    top: 210px;
+    color: grey;
+    margin: 20px;
+  }
+  .event{
+    display: flex;
+    justify-content: center;
+    color: darkmagenta;
+    position: relative;
+    top: 190px;
+    width: 100%;
+    height: 500px;
+    font-size:60px;
+
+  }
+  .event p{
+    position: relative;
+    top: 140px;
+    left: 660px;
+  }
+  .event-pic{
+      width: 500px;
+      height: 500px;
+      background-color: darkmagenta;
+      margin: 20px;
+      position: relative;
+      top:280px;
+      border-radius: 70px 70px 70px;
+      right: 60px; 
+  }
+  .event-pic p{
+    position: relative;
+    top: 500px;
+    left: 40px;
+    font-size: large;
+  }
+
+  .col1{
+    background-image: url(./concert-5736160.jpg);
+    background-size: 300px 500px;
+  }
+  .col2{
+    background-image: url(./kids-7426792.jpg);
+    background-size: 300px 500px;
+  }
+  .col3{
+    background-image:url(./event-6927353.jpg) ;
+    background-size:410px 500px;
+    background-repeat: no-repeat;
+  }
+  .service{
+    display: flex;
+    justify-content: center;
+    color: darkmagenta;
+    width: 100%;
+    height: 500px;
+    font-size: 60px;
+  }
+  .service1-p{
+    position: relative;
+    left: 650px;
+  }
+  .service p{
+    position: relative;
+    top: 690px;
+  }
+  .service-d{
+    width: 400px;
+    height: 500px;
+    border-radius: 70px 70px 70px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 900px;
+    margin: 20px;
+    right: 120px;
+    text-align: center;
+  }
+  
+  .c1 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 70px 70px 70px;
+  }
+  .c1 p{
+           color: wheat;
+           position: relative;
+           top: 10px;
+           font-size: 20px;
+           text-align: center;
+  }
+  .c2 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 70px 70px 70px;
+  }
+  .c3 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 70px 70px 70px;
+  }
+  .c4 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 70px 70px 70px;
+  }
+  .c1 button{
+    background-color: burlywood;
+    position: relative;
+    top: 70px;
+    left: 68px;
+    width: 144px;
+    height: 40px;
+  }
+  .c1 button:hover{
+    background-color: black;
+  }
+  .c2 p{
+    color: wheat;
+    top:10px;
+    font-size: 20px;
+  }
+  .c2 button{
+    background-color: burlywood;
+    position: relative;
+    top: 90px;
+    left: 68px;
+    width: 144px;
+    height: 40px;
+  }
+  .c2 button:hover{
+    background-color: black;
+  }
+  .c3 p{
+    color: wheat;
+    top:10px;
+    font-size: 20px;
+  }
+  .c3 button{
+    background-color: burlywood;
+    position: relative;
+    top: 70px;
+    left: 68px;
+    width: 144px;
+    height: 40px;
+  }
+  .c3 button:hover{
+    background-color: black;
+  }
+  .c4 p{
+    color: wheat;
+    top:10px;
+    font-size: 20px;
+  }
+  .c4 button{
+    background-color: burlywood;
+    position: relative;
+    top: 70px;
+    left: 68px;
+    width: 144px;
+    height: 40px;
+  }
+  .c4 button:hover{
+    background-color: black;
+  }
+  footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 990px;
+    font-size: xx-large;
+    color: #fff;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  footer p{
+    position: relative;
+    left: 590px;
+    bottom: 50px;
+
+  }
+  #address{
+    position: relative;
+    left: 990px;
+    bottom: 210px;
+  }
+  .address2{
+    position: relative;
+    top: 129px;
+    right: 270px;
+  }
+  footer img{
+    width: 50px;
+    height: 50px;
+  }
+  .footer1-img{
+    position: relative;
+    left:  590px;
+  }
+  .foot i{
+       margin: 20px;
+  }
+
+
+
+  
+  
+
+  
+  
